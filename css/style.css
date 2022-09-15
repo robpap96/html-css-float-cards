@@ -1,15 +1,95 @@
 /*****************
     RESET
 ******************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
 
 /*****************
     COMMON
 ******************/
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
+h1 {
+    color: #E53170;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 40px 0;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+h3 {
+    font-weight: 800;
+    color: white;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: white;
+    padding: 17px 10px;
+    font-weight: 500;
+    margin-bottom: -12px;
+
+}
 /*****************
     BODY
 ******************/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
 /*****************
     MAIN
 ******************/
+.margin {
+    margin-bottom: 40px;
+
+}
+
+.card {
+    max-height: 100px;
+    float: left;
+    width: calc(33.33% - 20px);
+    background-color: rgb(16, 16, 16);
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+
+.description {
+    display: inline-block;
+    height: calc(100% + 10px);
+    margin: 10px 10px;
+}
+
+a[href] {
+    color: rgb(34, 167, 244);
+    text-decoration: none;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+
+#marta {
+    padding-right: 20px;
+}
